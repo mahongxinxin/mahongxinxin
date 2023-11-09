@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>新闻导航站</title>
+  <link rel="shortcut icon" href="../logo.png" type="image/x-icon" />
+
+  <link
+  rel="stylesheet"
+  href="http://at.alicdn.com/t/c/font_4296663_yvi7bwtu73.css"
+/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- <link rel="stylesheet" href="style.css" /> -->
+  <!-- <link rel="stylesheet" href="color.css" /> -->
+  <style>
+    ul {
+      list-style: none;
+    }
+  </style>
+</head>
+
+<body class="text-gray-950">
+  <!-- 头部 -->
+  <h1 class="font-sans font-bold text-2xl text-pink-950 p-8 text-center border-b border-pink-100 border-solid shadow-sm"
+    style="
+        background-image: url('https://img1.baidu.com/it/u=2190327561,60083733&fm=253&fmt=auto&app=138&f=JPEG?w=1180&h=312');
+        opacity: .7;
+      ">
+    新闻资源导航
+  </h1>
+  <div class="bg-gray-50" 
+  style="
+  background-image:url('https://img1.baidu.com/it/u=3217765370,3535423635&fm=253&fmt=auto&app=138&f=JPG?w=889&h=500') ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:100%
+  ">
+    <div class="container mx-auto p-8">
+      <div class="flex items-center gap-2 mb-4">
+
+        <i class="iconfont icon-xinwen" style="font-size: 32px"></i>
+        <h2 id="home" class="underwave text-lg text-gray-500">
+          国内新闻资讯导航
+        </h2>
+      </div>
+
+      <div class="flex flex-row gap-x-16 gap-y-8 flex-wrap mb-8">
+        <div class="card">
+          <a href="http://paper.people.com.cn">
+            <div
+              class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+              style="background-color:RGB(255,255,255,.4)">
+              <img
+                src="https://gips0.baidu.com/it/u=938055302,1001113573&fm=3012&app=3012&autime=1696392950&size=b360,360"
+                class="block w-12 h-12" />
+              <div>
+                <h3 class="font-bold mb-2">人民日报</h3>
+                <p class="text-xs text-gray-400">
+                  人民日报是中国共产党中央委员会机关报，社承担着宣传党的理论和路线方针政策。
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://www.chinanews.com">
+            <div class="flex items-center gap-4 w-64 h-28 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              style="background-color:RGB(255,255,255,.4)">
+              <img
+                src="https://gips0.baidu.com/it/u=3215021191,4009076410&fm=3012&app=3012&autime=1696649880&size=b360,360"
+                class="block w-12 h-12" />
+              <div>
+                <h3 class="font-bold mb-2">中国新闻网</h3>
+                <p class="text-xs text-gray-400">国新闻网（简称“中新网”），由中国新闻社主办，为中央重点新闻网站。</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://news.cctv.com">
+            <div class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              style="background-color:RGB(255,255,255,.4)">
+              <img
+                src="https://gips0.baidu.com/it/u=2574942231,500345190&fm=3012&app=3012&autime=1696645426&size=b360,360"
+                class="block w-12 h-12" />
+              <div>
+                <h3 class="font-bold mb-2">央视新闻</h3>
+                <p class="text-xs text-gray-400">
+                  央视新闻是中国重要的新闻舆论机构，是中国重要的思想文化阵地。
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://www.huanqiu.com">
+            <div class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              style="background-color:RGB(255,255,255,.4)">
+              <img
+                src="	https://gips0.baidu.com/it/u=23577889,1375911668&fm=3012&app=3012&autime=1695215734&size=b360,360"
+                class="block w-12 h-12" />
+              <div>
+                <h3 class="font-bold mb-2">环球网</h3>
+                <p class="text-xs text-gray-400">
+                  环球网凭借强大的媒体平台和原创内容，全方位跟踪全球热点，及时传递中国声音。
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://www.thepaper.cn">
+            <div class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              style="background-color:RGB(255,255,255,.4)">
+              <img
+                src="https://gips0.baidu.com/it/u=2415883029,256348205&fm=3012&app=3012&autime=1696914615&size=b360,360"
+                class="block w-12 h-12" />
+              <div>
+                <h3 class="font-bold mb-2">澎湃新闻</h3>
+                <p class="text-xs text-gray-400">
+                  澎湃新闻，创办于2014年，是隶属于上海报业集团的互联网资讯平台。
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://www.gmw.cn/">
+            <div class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              style="background-color:RGB(255,255,255,.4)">
+              <img
+                src="https://gips0.baidu.com/it/u=3286843143,3746520924&fm=3012&app=3012&autime=1695215469&size=b360,360"
+                class="block w-12 h-12" />
+              <div>
+                <h3 class="font-bold mb-2">光明网</h3>
+                <p class="text-xs text-gray-400">
+                  国内最早设立的新闻网站之一，唯一一家定位于思想理论领域的中央重点新闻网站。
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://www.gmw.cn/">
+            <div class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              style="background-color:RGB(255,255,255,.4)">
+              <img
+                src="https://gips0.baidu.com/it/u=2362793285,836173972&fm=3012&app=3012&autime=1695351814&size=b360,360"
+                class="block w-12 h-12" />
+              <div>
+                <h3 class="font-bold mb-2">新京报评论</h3>
+                <p class="text-xs text-gray-400">
+                  新京报评论——天下功夫唯“快”不破，用快评更好地引导舆论。
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://finance.sina.com.cn">
+            <div class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              style="background-color:RGB(255,255,255,.4)">
+              <img src="https://img1.baidu.com/it/u=2247194010,1717720466&fm=253&fmt=auto&app=138&f=JPEG?w=166&h=166"
+                class="block w-12 h-12" />
+              <div>
+                <h3 class="font-bold mb-2">新浪财经</h3>
+                <p class="text-xs text-gray-400">
+                  深深影响广大中产阶级及高端人群，专注于交易、资讯、数据、服务四大领域。
+
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+
+
+      <div class="flex items-center gap-2 mb-4">
+        <i class="iconfont icon-xinwen" style="font-size: 32px"></i>
+        <h2 id="home" class="underwave text-lg text-gray-500">
+          美国新闻资讯导航
+        </h2>
+      </div>
+
+      <div class="flex flex-row gap-x-16 gap-y-8 flex-wrap mb-8">
+        <div class="card">
+          <a href="https://www.nytimes.com">
+            <div
+              class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+              style="background-color:RGB(255,255,255,.4)">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAAC/CAMAAAA1kLK0AAAAhFBMVEX///8AAAC6urrn5+f6+vrMzMzZ2dn39/fR0dHg4ODBwcGGhobt7e3FxcVMTEyWlpYpKSmzs7NoaGiioqKNjY27u7tXV1fj4+PJyclgYGCsrKympqZ4eHh/f38SEhI4ODgxMTEcHBw+Pj5aWlpubm6bm5sjIyNGRkYNDQ1OTk49PT0uLi6ay8A3AAAGjklEQVR4nO2YC1PqPBCGE3q/UXoBSgEVbQX0//+/b3eToih6OFrHOfO9z4wCaS6bN8nupkoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfpz0tw0QUve3Rg7afC4aRKv1tW3GMPaN7kVeSImzqUfo/AtkmtmvHaVa3VDBNrxYb/t49OUL19x83qdfZUpmOv+wirs6m28kVtzmkVKhbv9qAiMR6IHHqda5Cqbav1Rvw1VIAjUn1XT3aZ8JVT0q5dGXJ9e9eOLCg+5f/74ZrLghK0panq/O58vQhpidtNBzXpmLQuh7erLg9dIfVRkIK1YtVPGC5Y0vVVnSk9dCRGdW5GqqvW/M6Ut4OiDT6zux4E6pw+VZBqEqeXZOuKWPycuD6H3dpXKlzty9t7voPfm5EKmmfvx8b4Rwp/zvG5P6ErTK84JmGtcP7CtnHy53w4eYvxQvZenN5ZUTITw5+ZeFaM+FUCtakoo8R5M/9IFytL4g8E+T7skz1GwJ//pYiLC3e6F5KbvVl2OuFcK/WggVdKVyq0caRsa6MpS7wXX1ruprt09rrVd2giKElwxPnRff7vH0DurkyPyKdrSeLfl7z2VudzLrnRBpaZbYzTleB3EhQgSl41SmxVGnlXQvy+EYzzJhPRpemGV1siMeDuZmouIRXclC924uQgw7IiIr7bikkB0qLI+KyvmBCOF2mnaDNpuEwkShgpk+LL0zIYaj4dbiPRXXqRT5o2QiQrDbMbEy0duUym7MjvDNtuz1s1IVjxPLAKIoeWBp0Rx48PF2RMP9ihCToxWiZ7N7MmiiyTM+S7WleNKZODEWotIJhzmJIWotHu6R0xFxccVKhFiLco4Kep3kXBJGR/p4or9UdgS33kv3DtcrWIjwPqU/epDxeug9qaN3MQ+8jkRREo92abTQ3HrE3KvUOxGipH6flD0apcRy0t7Z2yWjuT4af5mwEDx9WWRPpKGJZ6zVTLrMtdkojeeJEC03qjjoBorUytpNJD7C3bkTm3HVvBw08V3KPSuXlyOQ4Ryeb+zuuA+ORjtOfFK2TbleNmJoEetlRxRTNQjRiBAUxCLfrpmvJxwsOL6ljRGC7N6ab5xtZZyaSVDhyYoQRbPWdqUTaepLTTn+JES14vaGqRWCdsRtaoSpTHGkttykkT4CrkHP1iw9GbUYTwczERLiwfprESI+CaE66zdzxxM9tO5C2+quVReFOG5TESKWvT8IMX0rxML6DTtqKgfJWpEYIfZsQfJGCEVjqQdaBSqbjXdRFGtyFpmihusbIbJBiKX/cvGQoFIaf8kmZ8uTkOdCpO151PhAiPVKpiXcszM09Twe6TMh5IZI7W/45Fx9Tfwj95w4J7UrM936b3ZE/0pxESI1Hoqz8WAQ8q0QSl0lRM+n3R6Ojl1Q1fFonmrnb4WYvwhxsCn7fOfytWe8+1ku/k8IY/32aMiiGzHSVjxTMghhCr8jhOpPh4NjQ2mU9X2KiR/viINUCuQEjSqE3D5N1lDyFJ95bDoanZhxF9isxrll7xCk7LiNEOSo3CJQEstlep8JsUutEB1LpsQxmsF2Jj04nNYj4ZQmMb9EiNruiKNEDd5DQaH8+til8ZhHQ1yUPmzzjQTCli8UWczj+Xyb3kXFMDPG4wyiVk3HIT6amwe7lD1HpvQpHz0XQtIMCsQt302oetiIs9O9w89LyejNpXaTb3eSgrEx65ALJVxqjhJ65Wech3RRZq/ta92N+VZtrQeWauncsdua83q5opHZe3NTIZdJ8qPEqOLG7LEWAdtZv7oniRChvPShFXcOdte5vm+6bNjZmQkvTYv4ZIXH99etLHYtUZgt4syC+yfJD5GJXhQzPn0b8PdED9JtYs7owhdtZCNkwyWw1ft0OTWerZCP6tlmt47Ik5+d1qL3srhZt0Pu5z6thqVb3hjrJ7fcPrg/5chpZzaFrbgQV1LyvSLnroM782AjuYNLydn0B17pBWF2Ju7K+sIT6etXEJfvk68o7UU99ebLvzEjzMJrU8W4+HOd79O8v4o3t9dvw0iOgRPn3XRf/9o76RFo9/2FS931boluGM/Pw4l/HtGwf42X98HMyA7tn8LGoVmZ1x+9ofqf4Pf12pPjxZc5wC+mf9sCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPge/wG3rE1TC8YtogAAAABJRU5ErkJggg=="
+                class="block w-12 h-12" />
+              <div>
+                <h3 class="font-bold mb-2">纽约时报</h3>
+                <p class="text-xs text-gray-400">
+                 美国著名的报纸之一，以深度报道新闻、娱乐、文化等领域著称。
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://apnews.com">
+            <div class="flex items-center gap-4 w-64 h-28 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              style="background-color:RGB(255,255,255,.4)">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGsAAAB+CAMAAAAUeh8WAAAAbFBMVEX///8AAAD/Mi7/0tH/GhT/JB//np1aWlrR0dGmpqZdXV14eHidnZ2jo6MdHR34+Pjy8vLZ2dnk5OQ5OTlpaWnq6upjY2PIyMi+vr4sLCxBQUFRUVGXl5etra0YGBiGhoYRERFISEgkJCSPj4+xha6fAAADN0lEQVRoge2Y3ZaqMAyF6flDrQiiCKioOO//jkcYhOy2wQpneXFW9h0zDR9ukiYlCEQikUgkEolEIpFohrbRkijKHUsKWPKtqsjTt1l7Bdo4loSKUamLLPZHpTsjfvsG66GbrrxphRn89R7robryQ8XajAyTd1mPGIcZtpKLZcrifZYqCw+WZaFS6wkspTx8XNlRu0msjatYQMndEWbVjQ/LWSygyhV1ncRS+gXr6go6TWPd7aSiSktX0MW0Hlgr3WgfHi37LT9AjixsZGYisJ6lFC/OxpPe7MokMvbCp8xyBhZxKj1h3GgqulHWnsixzDc5lh2MhUqdfVkLeGnHERa1EIJKX1agR8KooJ2cobegiSMsKNB7xrLAwvyLN3GEtaD/2rDbPbSTOstoFGbiCCul/7qw1QztRAfJkVze+GzD+22Bxf4usPDRf9b0OvJkwU3u7LRzoMse1/mNXENjGWHBhlpyk0dMs7zZbpOaxtGU4lkZxNidrxNka9vCoVboiMOzsE/sORZddmmNhvyljYVlwSvm5wAoZP1tNI3bkHu6WfEW3vhD3D4PCdQ9EJhIGovFSouiWFsddM+lBuyFXV3kNHI1PKXFikxMK3Zuo4vCp6+0nMmeaLGM99T9LA4FFvZ2MSb6sdhChrv2bkEdDB3Ci7XkUOBW3f8ZJ+7eRB+WPS07LSR7X+0M92A5TjcuC2klwTP0mfiStRs5OiQbsrDtVd0p9Uzv0LejVyw9dpqFQmp+fqpcWvqw7vvxw9fBDIYBYLDmJeuoK37GaBXDwGrBByUMq9rVp4OO8u3rTwFQRs0UvnXO9X12jfTKl7qasdxQeprNgnZyzEw4UXfMmcGysjBhLHyW+QwW7IVNFbozvtEhnsmikbsm1TgLVbd5T2eBhW3TMT8TEUXzWJaFsQbV8LtnsbD5OkYEGKfaxjKZBbV0cK2AJraew4JEcPYCMLnJxKksaCelc4u2zlRTWXYW2o8DpV1NZ8Fnhsi9BjrMcTILTieK6T24FSdTWflqUMhNj5kOh1WnKrjSS69PoCKRSCQSiUQikeif6ufnFPz6nIIfn5OwhCWs/4T1+3MK/nxOn2wpfwG4rDyKVoVlTgAAAABJRU5ErkJggg=="
+                class="block w-12 h-12" />
+              <div>
+                <h3 class="font-bold mb-2">美联社</h3>
+                <p class="text-xs text-gray-400">全球最大的新闻机构之一，为全球各地的新闻媒体提供新闻服务。</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://www.washingtonpost.com">
+            <div class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              style="background-color:RGB(255,255,255,.4)">
+              <img
+                src="data:image/png;base64,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"
+                class="block w-12 h-12" />
+              <div>
+                <h3 class="font-bold mb-2">华盛顿邮报</h3>
+                <p class="text-xs text-gray-400">
+                  是哥伦比亚特区大都会区最具影响力与发行量大的报纸之一，在美国全国受众亦较广。
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://www.forbes.com/">
+            <div class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              style="background-color:RGB(255,255,255,.4)">
+              <img
+                src="	https://img2.baidu.com/it/u=2460601700,4250781302&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=308"
+                class="block w-12 h-12" />
+              <div>
+                <h3 class="font-bold mb-2">福布斯</h3>
+                <p class="text-xs text-gray-400">
+                  全球著名的商业媒体，提供商业、金融、科技、管理等多个领域的报道。
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-2 mb-4">
+        <i class="iconfont icon-xinwen" style="font-size: 32px"></i>
+        <h2 id="home" class="underwave text-lg text-gray-500">
+          英国新闻资讯导航
+        </h2>
+      </div>
+
+      <div class="flex flex-row gap-x-16 gap-y-8 flex-wrap mb-8">
+        <div class="card">
+          <a href="http://www.lutounet.com">
+            <div
+              class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+              style="background-color:RGB(255,255,255,.4)">
+              <img
+                src="https://bkimg.cdn.bcebos.com/pic/29381f30e924b899a90114f3c5480a950a7b030858e3?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2UyNzI=,g_7,xp_5,yp_5/format,f_auto"
+                class="block w-12 h-12" />
+              <div>
+                <h3 class="font-bold mb-2">路透社</h3>
+                <p class="text-xs text-gray-400">
+                  路透社是世界前三大的多媒体新闻通讯社，提供各类新闻和金融数据。
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://www.bbc.com/">
+            <div class="flex items-center gap-4 w-64 h-28 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              style="background-color:RGB(255,255,255,.4)">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAclBMVEW5AAX///+2AAC1AAC4AACxAADksLH24+PCOjvqwMG8BArgq6vQbW7uzM3kra7mtbXdnJ3z2tvfpKX99/fVgoPXiovDP0Dw0tLUfH3NY2THT1DBNTb57OzALi/sx8fblJXJWlu9Gh29ISPERUfQc3S7ERT2S8nLAAACJ0lEQVRIie2UyYKjIBCGLarAJkqMQWMwiGZ7/1ecQk1n2iwzl77lP2CJflAbJMlHH330iyJxEyXibv89/ZzrClUUhVKqqHCjZluJvJjton1O0hdA2jQWAIJMwRqTsgm44cEHw/P5a3BPrdQAmsFStsLNoMPhLM1bsIK+nUECL+0I7vkLWP8OrHY9mRkUm91+2lE0MOotuLkc7Qz2dVzk/0B2FUS4uQqVG8G8jVj6FrzmB5p3lG6IiWLQHujipHoHlloHmGK0Wmt/K0eZqfS1q50JhhWC6VGF2Q64N7NthletgzeJRHzbdJ9+wf1b9IQU03LxQfedxp/pe56nlo0u+rQS/NiWK9GXUelwSjUmdKjOlKBKO3Ql9+x69ZMUCqDjHwysMIOU5R1a4COVQcAEwaIDqzIDhwW45pQjYRjBdnQVNZwJuS7IhQrc4x0KPF4fwB56nMEB+dQmVEEtEmjgIPZQy4bXI1rmh8ETuzGDer1e94JOoDGHDmpUsBMXAFOfliVh8Iu4yyZw7EyOzHqpvPRGppbfXGx1JR5c3eEFKj3FKDGWAgsgX3CPEm8d+4NyD/UjSNhwQBF0NAZDvBLknM4aLhSrTzhAIR5BOrIvY3Jo0hV8rAhYWBFVHbuxhX4Bcvh8J1YRVNOp5aWx5Bol7Mg02tKCX6SV8ozrn+AmW1G+jcqid3nmeHQZnyc69boM9UO70pSteOnS/falH+PYwMlHH330W/oDDsEhZJl+XtQAAAAASUVORK5CYII="
+                class="block w-12 h-12" />
+              <div>
+                <h3 class="font-bold mb-2">BBC</h3>
+                <p class="text-xs text-gray-400">是英国最大的新闻广播机构，也是世界最大的新闻广播机构之一。</p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://www.thetimes.co.uk">
+            <div class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              style="background-color:RGB(255,255,255,.4)">
+              <img
+                src="data:image/jpeg;base64,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  "
+                class="block w-12 h-12" />
+              <div>
+                <h3 class="font-bold mb-2">泰晤士报</h3>
+                <p class="text-xs text-gray-400">
+                  隶属于鲁珀特·默多克的新闻集团。长期以来，一直被视为英国的第一主流大报。
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-2 mb-4">
+        <i class="iconfont icon-xinwen" style="font-size: 32px"></i>
+        <h2 id="home" class="underwave text-lg text-gray-500">
+          法国新闻资讯导航
+        </h2>
+      </div>
+
+      <div class="flex flex-row gap-x-16 gap-y-8 flex-wrap mb-8">
+        <div class="card">
+          <a href="https://www.afp.com/en/news-hub">
+            <div
+              class="flex items-center gap-4 w-64 bg-white p-4 rounded-lg shadow hover:shadow-lg transition-all duration-150 ease-in-out"
+              style="background-color:RGB(255,255,255,.4)">
+              <img
+                src="data:image/jpeg;base64,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LblfrkbEriaiqKgBS4JZArWHXZTc6E7TzbAUQA1OuGYahSAcxGoGUa6yj77ZP0c4bF4rL4qsw5Epc27Dz9stMAyFQ1Rlapbxi5AKn7IB8kCeY4jXy3OGa/efda88Hw1Cq2apWDu1tEI7gALEmVff1/hKJGMQ1Spw5AIJvUByi32QRq+vo0nRFOHOaozVmfRcoJYW1NgTttt2T3WjXUZEZFRQApYEvlA3NtJ4V+MqhtlDHW9nDHTa5AsOe1+6FnSJ62TcNi1ceMMrXvkOrLbm483r17JU8X4xe6Ujp5zjn2L2dsgY3iT1LjyVPmrz/mPnSDLxppdsq5CIidclRERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBA64iAdkcjYkdxI90k08aVAASncbNks2nO6ka9siRIwgSv8AqFXm7EdRY2PYddROz8QcjKFRB/AgB9e4kOJHFDJySTub3nERJAiIkgREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERBAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAf/2Q=="
+                class="block w-12 h-12" />
+              <div>
+                <h3 class="font-bold mb-2">法国新闻社</h3>
+                <p class="text-xs text-gray-400">
+                  法国新闻社总部位于法国巴黎的国际通讯社，是法国最大的通讯社。
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a href="https://www.rfi.fr/cn/">
+            <div class="flex items-center gap-4 w-64 h-28 bg-white p-4 rounded-lg shadow hover:shadow-lg"
+              style="background-color:RGB(255,255,255,.4)">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAaVBMVEX////iABrgAADhAAD64OHiABHxo6XmRkv4zdD++fr2yMr88PHlOkDqaW3hAAr99vbrcnfiDx/vl5r1v8HoWV/ukJPzsLLkNDrkKzTsgIPmSVDpYmfreHzth4vjHiryqqz41df86OrnUlauWKOlAAABZ0lEQVRIie2V23KDIBBAt7uBoEZFUKuJNpr//8gCmuSFRMi0bx5nnOFyRBZYAHb+lfZ03OD74BU5sQ3wlfi1QZjIiNDUFLQSKlKntFCEPV9QGCaislUCUaytJQWJhXRVKWG6tmZhou2SHc0cY8XKlGsXjziRnU25cEPHzbG4mJ7oPnEZFiQLEIsiv4uPdcSNdazMCmJeWZGqypSqO29FdoIBG4BTvlQJorA5GjFXMP7QXcTAqBpxhI6YnWPCr+0YugGMmEm7s11wbEQiRBu+Z1TDxZY+FMdPRVns4i6604EROYd1hwuzmaaeROoyCfFJOPT7ZMWQLWkOEderABeC7w4ffy0q3MQvJgmYx7yXgg+vZ2hmXSaz1kqp7FUfH4M+3GQGrZCDjvGm/FpzEKoBOd9iRBB6kj2HoVWNEtvdH6RD3zX9FWqe83PUiAA28yc/Im9jRXcUkiwto4IziyeT8JGWkT+yE8kvKyAbhneFSpsAAAAASUVORK5CYII="
+                class="block w-12 h-12" />
+              <div>
+                <h3 class="font-bold mb-2">法国国际广播电台</h3>
+                <p class="text-xs text-gray-400">是法国的一家国际性广播电台机构，现隶属于法国国营国际广播公司法国世界媒体。</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      
+      </div>
+
+      <!-- 页脚部分 -->
+      <footer class="bg-gray-700 flex h-20 justify-center items-center" style="background-color:RGB(132,173,234,.1)">
+        <p class="text-center text-xs text-gray-50">
+          <a>©copyright-荭芯</a>
+        </p>
+      </footer>
+</body>
+
+</html>
